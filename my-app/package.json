@@ -1,8 +1,16 @@
 {
-    "name": "com.phonegap.helloworld",
-    "version": "1.0.0",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "displayName": "helloworld"
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "displayName": "helloworld",
+  "main": "index.js",
+  "dependencies": {
+    "cordova-browser": "^5.0.4"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
